@@ -15,13 +15,5 @@ public class Funciones1 {
 		String ultimaletra=palabra.substring(palabra.length()-1);
 		return primerastres+ultimaletra+palabra.length();
 	}
-	public static void cadenaVacia(Scanner sc) {
-		String palabra = "";
-		do {
-			System.out.println("Dime un nombre");
-			palabra = sc.nextLine();
-			
-		} while (palabra.length() != 0);
 
-	}
 }
