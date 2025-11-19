@@ -9,7 +9,7 @@ public class Funciones2 {
 				contador++; // Suma los espacios en blanco (si hay dos palabras habria un espacio en blanco*.
 			}
 		}
-		return contador + 1; // *entonces si dos palabras= unespacio en blanco, sumo uno, por ello saldria que habria 2 palabras
+		return contador + 1; // *entonces si dos palabras=espacio en blanco, sumo uno, habria 2 palabras
 	}
 
 	public static String invertirFrase(String frase) {
